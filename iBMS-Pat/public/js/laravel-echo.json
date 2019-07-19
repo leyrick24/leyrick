@@ -1,0 +1,16 @@
+{
+	"apps":[
+		{
+			"name":"laravel-echo-server",
+			"script":"laravel-echo-server",
+			"args":"start",
+			"cwd":"/usr/share/nginx/html/iBMS/",
+		},
+		{
+			"name":"udp.js",
+			"script":"udp.js",
+			"args":"start",
+			"cwd":"/usr/share/nginx/html/iBMS/public/js/"
+		}
+	]
+}

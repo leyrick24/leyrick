@@ -1,0 +1,98 @@
+.clock{
+    padding: all;
+    object-position: right;
+
+}
+.main{
+    width: 1200px;
+    height: 80vh;  
+    position: absolute; 
+}
+
+
+.main-nav
+{
+    background-color:   #D4AF37;
+    height: 80vh;
+    width: 1200px;
+    background-position: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 0px;
+    margin-left: 360px; 
+    padding: 0px;
+
+}
+.main-nav li
+{
+    display: inline-block;
+    background-color:  #D4AF37;
+
+    
+
+}
+.main-nav li a
+{
+    
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    background-color: #008000;
+    color:  #FFDF00;
+    transition: .3s ease; 
+
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;    
+}
+.header
+{
+    background-color: #f7e7ce;
+    height: 5vh;
+    width: 1200px;
+    text-decoration: none;
+    float: all;
+    list-style: none;
+    margin-top: 0px;
+    margin-left: 360px;
+    margin-bottom: 0px
+
+}
+.header li{
+    display: inline-block;
+    padding: 15px;
+    text-align-last: center;
+    object-fit: all;
+
+}
+.btn
+{
+    border: 1px solid   white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.button
+{
+    margin-top: 20px;
+    margin-left: 440px;
+    background-color: #D4AF37;;
+    color: #FFDF00;
+}
+.btn-one:hover
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.5 ease-in;
+}
+.btn-two:hover
+{
+    font-family: "Roboto", sans-serif;
+    background-color: darkorange;
+    transition: all 0.5 ease-in;
+}

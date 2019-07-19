@@ -1,0 +1,40 @@
+~Install Composer First~
+~Install Node JS First ~
+yum install git -y
+~Install redis~
+yum install redis
+sudo systemctl start redis
+sudo systemctl enable redis
+redis-cli ping
+"redirect to project foler"
+cd /usr/share/nginx/html/ProjectName
+
+npm i
+~Install Laravel Echo Server~
+composer require predis/predis
+yum install nodejs npm -y
+npm install -g laravel-echo-server
+npm i laravel-echo
+npm i --save socket.io-client   (If has Error Install this) 
+laravel-echo-server init 
+laravel-echo-server start 
+
+
+~Temporarily Disable Firewall~
+systemctl stop firewalld
+systemctl disable firewalld
+
+~Install PM2 (For Background Process)~
+npm install pm2 -g
+Redirect to Project file
+copy "laravel-echo.json" file to ProjectName/public/js
+
+
+pm2 start /usr/share/nginx/html/ProjectName/public/js/laravel-echo.json
+pm2 ls
+pm2 save
+pm2 startup
+
+view running process 
+
+pm2 start /usr/share/nginx/html/IBMS/public/js/laravel-echo.json
